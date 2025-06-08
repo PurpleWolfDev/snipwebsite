@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate</title>
+    <link rel="stylesheet" href="CSS/donate.css">
+</head>
+<body>
+    <div class="header1">
+        <div class="head">
+            <span class="head1">Your Snips</span>
+            <span class="dot"><big>.</big></span>
+        </div>
+        <i class="fa fa-search search-ico" onclick="goToSearch()"></i></div>
+        <div class="hamburger-menu">
+            <button class="hamburger-btn1" onclick="openMenu()"></button>
+            <button class="hamburger-btn2" onclick="openMenu()"></button>
+            <button class="hamburger-btn3" onclick="openMenu()"></button>
+        </div>
+    </div>
+    <div class="header2">
+        <ul class="ul1">
+            <li class="fromCenter"><a href="/" id="a1">Home</a></li>
+            <li class="fromCenter"><a href="/aboutUs" id="a1">About Us</a></li>
+            <li class="fromCenter"><a href="/#section-4" id="a1">Any Problem?</a></li>
+            <li class="fromCenter"><a href="/donateUs" id="a1">Donate</a></li>
+            <li class="fromCenter"><a href="/category" id="a1">Categories</a></li>
+        </ul>
+    </div>
+    <div class="menu">
+        <li id="li1" onclick="gotoHome()">Home</li>
+            <li id="li2" onclick="goToAbout()">About Us</li>
+            <li id="li4" onclick="goToDonate()">Donate</li>
+            <li id="li5" onclick="goToCategory()">Categories</li>
+            <li id="li3" onclick="goToSearch()">Search</li>
+    </div>
+    <div class="container">
+        <div class="left-img">
+
+        </div>
+        <div class="right-con">
+            <div class="don-box">
+                <h1>Make a <span class="don-word">Donation</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo temporibus incidunt voluptatem fuga corrupti dolorum. Nostrum commodi officia adipisci distinctio.</p>
+                <div class="middle">
+                    <div class="middle-input">
+                        <input type="text" placeholder="Your name"> <br>
+                        <input type="text" placeholder="Your email"> <br>
+                        <input type="number" placeholder="Amount(INR)"> <br>
+                        <input type="text" placeholder="Note for us 😄"> <br>
+                    </div>
+                    <div class="middle-img">
+
+                    </div>
+                </div>
+                <button class="cta-don">
+                    Donate
+                </button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function openMenu() {
+    document.querySelector(".menu").setAttribute("style", "height: calc(100vh - 70px) !important;");
+    document.querySelector(".hamburger-btn1").setAttribute("onclick", "closeMenu()");
+    document.querySelector(".hamburger-btn2").setAttribute("onclick", "closeMenu()");
+    document.querySelector(".hamburger-btn3").setAttribute("onclick", "closeMenu()");
+    setTimeout(() => {
+        document.getElementById("li1").setAttribute("style", "display:block;");
+        document.getElementById("li2").setAttribute("style", "display:block;");
+        document.getElementById("li3").setAttribute("style", "display:block;");
+        document.getElementById("li4").setAttribute("style", "display:block;");
+        document.getElementById("li5").setAttribute("style", "display:block;");
+    }, 200);
+    document.body.setAttribute("style", "overflow:hidden;");
+}
+
+function closeMenu() {
+    document.getElementById("li1").setAttribute("style", "display:none;");
+    document.getElementById("li2").setAttribute("style", "display:none;");
+    document.getElementById("li3").setAttribute("style", "display:none;");
+    document.getElementById("li4").setAttribute("style", "display:none;");
+    document.getElementById("li5").setAttribute("style", "display:none;");
+    document.querySelector(".menu").setAttribute("style", "height: 0px !important;");
+    document.querySelector(".hamburger-btn1").setAttribute("onclick", "openMenu()");
+    document.querySelector(".hamburger-btn2").setAttribute("onclick", "openMenu()");
+    document.querySelector(".hamburger-btn3").setAttribute("onclick", "openMenu()");
+    document.body.setAttribute("style", "overflow-y:scroll;");
+}
+function goToSearch() {
+    window.location.href= "/search";
+}
+function goToHome() {
+    window.location.href= "/";
+}
+function goToCategory() {
+    window.location.href= "/category";
+}
+
+function goToDonate() {
+    window.location.href= "/donateUs";
+}
+function goToAbout() {
+    window.location.href= "/aboutUs";
+}
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "6215e3ebd99c91ccee4eb0df"
+  },
+  "templateId": "1",
+  "keywords": "todo list, list, todo, todolist, css, html",
+  "templateName": "JavaScript Todo List Made By Avi Shokla",
+  "imgUrl": "IMG/API_IMG/1.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1Xw8-36MJAXRdvhfQlaARzUgiQCl2JLbg/view?usp=sharing",
+  "description": "Avi Shokla - Purple Fox Devs - 2022, \r\nThis is a simple todo list made by one of the fox of Purple Fox Devs, Which Works On LocalStorage Concept.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6215e55cd99c91ccee4eb0e1"
+  },
+  "templateId": "2",
+  "keywords": "newsletter, news, letter, news letter, css",
+  "templateName": "Subscribe To Our Newsletter Box Created By Animesh.",
+  "imgUrl": "IMG/API_IMG/2.png",
+  "prevUrl": "https://drive.google.com/file/d/1yO-HcFNO6P4CRX0CrlnFV9UiX0Vj8igK/view?usp=sharing",
+  "sourceUrl": "https://drive.google.com/file/d/1yO-HcFNO6P4CRX0CrlnFV9UiX0Vj8igK/view?usp=sharing",
+  "description": "Animesh - Purple Fox Devs - 2022, \r\nThis Is A Simple Newsletter Box Created By Animesh Who Is A Frontend Developer At Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a00a34bb7b2b6c02cf702"
+  },
+  "templateId": "3",
+  "keywords": "music player,music,player,song player,song,css,js",
+  "templateName": "Music Player With Pure HTML, CSS, JS By Aditya.",
+  "imgUrl": "IMG/API_IMG/3.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1-syRecOT9_vTa68TSc-HVG21uPe0VyZp/view?usp=sharing",
+  "description": "Aditya_J - Purple Fox Devs - 2022, \r\nThis is a music player made by Aditya_J who is a frontend developer and guider at Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a01724bb7b2b6c02cf705"
+  },
+  "templateId": "4",
+  "keywords": "footer, css footer, footer icons, icons, css",
+  "templateName": "Pure HTML, CSS footer made by Avi Shokla",
+  "imgUrl": "IMG/API_IMG/4.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1jZKxr576aVGi2Clx5wj0MRrylrO8X6PO/view?usp=sharing",
+  "description": "Avi Sholka - Purple Fox Devs - 2022, \r\nThis is a pure html, css footer made my Avi Sholka who is a full stack developer at Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a02d54bb7b2b6c02cf708"
+  },
+  "templateId": "5",
+  "keywords": "signup,form, signup form, signup page, sign, up",
+  "templateName": "Signup form made by Anmol.",
+  "imgUrl": "IMG/API_IMG/5.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1nggD-Del9MFGSRrcO7uJa9dRGhRgTqpt/view?usp=sharing",
+  "description": "Anmol - Purple Fox Devs - 2022, \r\nThis is a signup form made by anmol who is a frontend developer at Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a03c84bb7b2b6c02cf70c"
+  },
+  "templateId": "6",
+  "keywords": "digital clock, clock, digital,time,css,js",
+  "templateName": "Digital clock Made By Asad Noor",
+  "imgUrl": "IMG/API_IMG/6.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1P4CwT-DSYb4vFmFiXqzv811sR1UAa7Zm/view?usp=sharing",
+  "description": "Asad Noor - Purple Fox Devs - 2022, \r\nThis is a basic working digital clock made by Asad Noor who is full stack developer and leader of Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a04704bb7b2b6c02cf70f"
+  },
+  "templateId": "7",
+  "keywords": "calculator,working,css,js",
+  "templateName": "Working calculator made by Asad Noor",
+  "imgUrl": "IMG/API_IMG/7.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1wSqB6mc-2U1Nb8ssWQ-5CSRTvUJTM_Wg/view?usp=sharing",
+  "description": "Asad Noor - Purple Fox Devs - 2022, \r\nThis is a working calculator made by Asad Noor who is full stack developer and leader of Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a04fc4bb7b2b6c02cf712"
+  },
+  "templateId": "8",
+  "keywords": "preloader,loader, css loader, css",
+  "templateName": "Website preloader made by Asad Noor",
+  "imgUrl": "IMG/API_IMG/8.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1Ipt02skVyqO8KaN2MFMJjNiEdlepD2xV/view?usp=sharing",
+  "description": "Asad Noor - Purple Fox Devs - 2022, \r\nThis is a website preloader made by Asad Noor who is full stack developer and leader of Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a05954bb7b2b6c02cf715"
+  },
+  "templateId": "9",
+  "keywords": "tic tac toe, tic-tac-toe, tictactoe, css, js, game",
+  "templateName": "Tic-Tac-Toe game made by Asad Noor.",
+  "imgUrl": "IMG/API_IMG/9.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1jYcYIROE_s63ivpZ5PHQnogW52_4REfs/view?usp=sharing",
+  "description": "Asad Noor - Purple Fox Devs - 2022, \nThis is a working Tic-Tac-Toe game made by Asad Noor who is full stack developer and leader of Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a06534bb7b2b6c02cf71a"
+  },
+  "templateId": "10",
+  "keywords": "analog clock, clock, analog, css, js, time",
+  "templateName": "Analog clock made by Aditya_J.",
+  "imgUrl": "IMG/API_IMG/10.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/14AV1iK_r3L7rTHrbTYnV3s9-3NysNb5x/view?usp=sharing",
+  "description": "Aditya_J - Purple Fox Devs - 2022, \r\nThis is a Analog Clock made by Aditya_J who is a frontend developer and guider at Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a06ec4bb7b2b6c02cf71d"
+  },
+  "templateId": "11",
+  "keywords": "popup, popup modal, modal, pop up, css",
+  "templateName": "Popup modal made by Animesh.",
+  "imgUrl": "IMG/API_IMG/11.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1DSuQ5AYLS3qU7ucOpie-Ed-a8TiuZcf_/view?usp=sharing",
+  "description": "Animesh - Purple Fox Devs - 2022, \r\nThis is a basic popup modal made by animesh who is a frontend developer at Purple Fox Devs.",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "621a07dc4bb7b2b6c02cf720"
+  },
+  "templateId": "12",
+  "keywords": "signup, signup page, signup form, form, css",
+  "templateName": "Signup form made by Animesh.",
+  "imgUrl": "IMG/API_IMG/12.png",
+  "prevUrl": "",
+  "sourceUrl": "https://drive.google.com/file/d/1yWJrpzxen5XUOx9-472fiXHkAeQew6ac/view?usp=sharing",
+  "description": "Animesh - Purple Fox Devs - 2022, \r\nThis is a grayscale signup form made by Animesh who is a frontend developer at Purple Fox Devs.",
+  "__v": 0
+}]

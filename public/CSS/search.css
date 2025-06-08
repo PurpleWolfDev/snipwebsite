@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background: #0077b6;
+    box-shadow: 1px 1px 4px #999;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+}
+.nav .head1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+.nav .dot{
+    font-size: 45px;
+    color: #f72585;
+    font-weight: 600;
+}
+.head{
+    margin-left: 50px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+#input{
+    position: absolute;
+    top: 15px;
+    height: 40px;
+    width: 300px;
+    right: 70px;
+}
+
+.search-ico{
+    position: absolute;
+    right: 0px;
+    margin-right: 35px;
+    cursor: pointer;
+    color:#666;
+    padding: 10px;
+    background: #fff;
+    margin-left: -5px;
+    font-size: 20px;
+    border: 1px solid #999;
+    z-index: 5;
+    border-radius: 2px;
+}
+body{
+    background: #ffffe6;
+}
+.card-container{
+    height:auto;
+    width: 95%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 120px;
+    display: flex;
+    flex-direction: column;
+    background:#fff;
+    align-items: center;
+    left:2.5%;
+}
+.card-container .snip-card{
+    height: 300px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card-container .snip-card .img-container{
+    height: 260px;
+    width: 320px;
+    /* border: 1px solid red; */
+    background-size: 100% 100%;
+}
+.card-container .snip-card .text-container {
+    width: calc(100% - 420px);
+    height: 260px;
+    /* border: 1px solid blue; */
+}
+.card-container .snip-card .text-container .header-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    /* border: 1px solid black; */
+}
+.card-container .snip-card .text-container .snip-author{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #222;
+    /* border: 1px solid black; */
+}
+.card-container .snip-card .text-container .snip-desc{
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #444;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1050px) {
+    .card-container .snip-card .text-container .snip-desc{
+        font-size: 12px;
+    }
+    .card-container .snip-card .text-container .snip-desc{
+        font-size: 14px;
+    }
+    .card-container .snip-card .text-container .header-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 950px) {
+.card-container .snip-card .img-container{
+    width: 200px;
+    height: 200px;
+}
+.card-container .snip-card .text-container{
+    width: calc( 100% - 250px);
+}
+.card-container .snip-card .text-container .snip-desc{
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+.card-container .snip-card .text-container .snip-desc{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+.card-container .snip-card .text-container .header-title{
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+.card-container .snip-card .text-container .snip-author{
+    margin-left: 0px;
+    margin-right:0px;
+}
+.card-container .snip-card{
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 650px) {
+    #input{
+        position: absolute;
+        left: calc(50% - 165px);
+    }
+    .search-ico{
+        position: absolute;
+        left: 0px;
+        right: auto;
+        margin-left: calc(50% + 130px);
+    }
+    .head{
+        display: none;
+    }
+    .card-container .snip-card{
+        flex-direction: column;
+        height: 550px;
+    }
+    .card-container .snip-card .text-container{
+        width: 90%;
+        height:320px;
+    }
+    .card-container .snip-card .img-container{
+        height: 200px;
+        width: 300px;
+    }
+}

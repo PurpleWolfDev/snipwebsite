@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:#181818;
+        }
+        input{
+            margin-top: 15px;
+        }
+        textarea{
+            margin-top:15px;
+            height:100px;
+        }
+        input::placeholder{
+            color:black;
+        }
+        button{
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <form class="container" action="/temp" method="post">
+        <div class="form-group">
+            <input type="number" class="form-control" name="templateId" id="exampleInputPassword1" placeholder="id">
+          <input type="text" class="form-control" name="keywords" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Keywords Seperated By ','">
+        </div>
+        <div class="form-group">
+          <input type="text" class="form-control" name="templateName" id="exampleInputPassword1" placeholder="Name">
+          <input type="text" class="form-control" name="imgUrl" id="exampleInputPassword1" placeholder="IMG url">
+          <input type="text" class="form-control" name="prevUrl" id="exampleInputPassword1" placeholder="Preview url">
+          <input type="text" class="form-control" name="sourceUrl" id="exampleInputPassword1" placeholder="Source url">
+          <textarea type="text" class="form-control" name="description" id="exampleInputPassword1" placeholder="Description"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
