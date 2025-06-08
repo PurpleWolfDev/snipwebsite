@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}));
 app.listen(port, () => {
     console.log("Server Is Started!");
 });
-mongoose.connect('mongodb+srv://snips:snips@cluster0.hscsw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser : true});
+mongoose.connect('db url', {useNewUrlParser : true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, "error"));
 db.once('open', ()=>{
