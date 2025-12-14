@@ -8,7 +8,7 @@ app.use(express.urlencoded({extended:true}));
 app.listen(port, () => {
     console.log("Server Is Started!");
 });
-mongoose.connect('db url', {useNewUrlParser : true});
+mongoose.connect('mongodb+srv://snips:Shaguftanaz@123@cluster0.hscsw.mongodb.net/?appName=Cluster0', {useNewUrlParser : true});
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, "error"));
 db.once('open', ()=>{
